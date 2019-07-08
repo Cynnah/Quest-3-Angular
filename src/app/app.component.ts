@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mymovies';
+
+  isThisFilmIsEssential:boolean = true;
+
+  showMovies:boolean = true;
+
 }
